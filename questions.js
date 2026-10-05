@@ -36,12 +36,7 @@ function addTest(subjectCode, testCode, testTitle, timeMinutes, questionsArray) 
 // =========================================================================
 // 👇 आप नीचे बस इस तरह अपना कोड पेस्ट करते जाएं (Paste Your Tests Below)
 // =========================================================================
-addTest({
-    subjectCode: 1,
-    testCode: 1,
-    testTitle: "प्रतिशतता",
-    timeInMinutes: 60,
-    questions: [
+addTest(1,1"प्रतिशतता", 60,[
         {
             q: "चावल की कीमत में 60% की वृद्धि हुई है। मूल कीमत को पुनर्स्थापित करने के लिए, नई कीमत को घटाया जाना चाहिए।[span_0](start_span)[span_0](end_span)",
             options: ["$33 \\frac{1}{3}\\%$", "$37 \\frac{1}{2}\\%$", "40%", "45%"],
@@ -542,5 +537,4 @@ addTest({
             options: ["9650", "9450", "9350", "9550"],
             ans: 1
         }
-    ]
-});
+    ]);
