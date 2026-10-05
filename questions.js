@@ -1,16 +1,21 @@
 // questions.js
 
 // Subject Codes Definition:
-// 1 = Mathematics
-// 2 = Science
-// 3 = Social Science
-// 4 = Reasoning
-
+// 1 = Physics
+// 2 = Chemistry
+// 3 = Mathematics
+// 4 = Biology
+// 5 = Reasoning
+// 6 = Social science
+// 7 = Other
 const quizDatabase = {
-    1: { title: "Mathematics", tests: [] },
-    2: { title: "Science", tests: [] },
-    3: { title: "Social Science", tests: [] },
-    4: { title: "Reasoning", tests: [] }
+    1: { title: "Physics", tests: [] },
+    2: { title: "Chemistry", tests: [] },
+    3: { title: "Mathematics", tests: [] },
+    4: { title: "Biology", tests: [] },
+    5: { title: "Reasoning", tests: [] },
+    6: { title: "Social science", tests: [] },
+    7: { title: "Other", tests: [] }
 };
 
 /**
